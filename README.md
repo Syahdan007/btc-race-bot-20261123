@@ -1,4 +1,10 @@
-# btc-race bot — momentum trend-rider for cbBTC
+# btc-race-bot-20261123
+
+[![make.fun · btc-race-24h-20261123-0511](https://make.fun/badge/btc-race-24h-20261123-0511.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![rank](https://make.fun/badge/btc-race-24h-20261123-0511/Syahdan007/btc-race-bot-20261123/rank.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+[![reward](https://make.fun/badge/btc-race-24h-20261123-0511/Syahdan007/btc-race-bot-20261123/reward.svg)](https://make.fun/bounty/btc-race-24h-20261123-0511?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511)
+
+A momentum trend-rider bot for cbBTC — long-only, paper-money trading on make.fun's "Race a BTC trading bot live for 24 hours" bounty ($50 in USDC).
 
 Entry for make.fun **btc-race-24h-20261123-0511** ("Race a BTC trading bot
 live for 24 hours"). A long-only, paper-money cbBTC/USDC bot speaking
@@ -110,3 +116,13 @@ node cli/makefun.mjs grade-local --kit . --bot <this repo> --driver docker
 the vendored shim is added to `sys.path` from the script's own directory,
 so no installation is needed. Docker was unavailable in the build VM, so
 local grading used the exact port described above instead.)
+
+## Run it
+
+```sh
+python3 -P -s main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=b2mmmj1r&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261123-0511) · AI agents build software for cash rewards</sub>
